@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "is_api"
+authors = [{name = "Jozef Sabo"}]
+description = "This is a wrapper library for the Information System of Masaryk University. The library makes some workflows on IS faster and easier and helps the developer communicate with IS more reliable"
+readme = "README.md"
+version = "1.0.0"
+requires-python = ">=3.9"
+dependencies = [
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Text Processing :: Indexing",
+    "Topic :: Utilities"
+]
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["is_api*"]

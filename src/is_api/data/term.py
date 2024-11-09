@@ -1,0 +1,22 @@
+from enum import IntEnum
+
+class Term(IntEnum):
+    PODZIM_2019 = 7643
+    JARO_2020 = 7644
+
+    PODZIM_2020 = 8063
+    JARO_2021 = 8064
+
+    PODZIM_2021 = 8403
+    JARO_2022 = 8404
+
+    PODZIM_2022 = 8863
+    JARO_2023 = 8883
+
+    PODZIM_2023 = 9223
+    JARO_2024 = 9224
+
+    PODZIM_2024 = 9603
+    JARO_2025 = 9604
+
+    # PODZIM_2025 = 8403

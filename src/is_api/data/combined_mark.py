@@ -1,0 +1,56 @@
+from enum import Enum
+
+class CombinedMark(Enum):
+    A = "A"
+    B = "B"
+    C = "C"
+    D = "D"
+    E = "E"
+    F = "F"
+    M = "-"
+    X = "X"
+
+
+    FA = "FA"
+    FB = "FB"
+    FC = "FC"
+    FD = "FD"
+    FE = "FE"
+    FF = "FF"
+
+    FFA = "FFA"
+    FFB = "FFB"
+    FFC = "FFC"
+    FFD = "FFD"
+    FFE = "FFE"
+    FFF = "FFF"
+
+    MA = "-A"
+    MB = "-B"
+    MC = "-C"
+    MD = "-D"
+    ME = "-E"
+    MF = "-F"
+    MM = "--"
+
+    MMA = "--A"
+    MMB = "--B"
+    MMC = "--C"
+    MMD = "--D"
+    MME = "--E"
+    MMF = "--F"
+    MMM = "---"
+
+    FMA = "F-A"
+    FMB = "F-B"
+    FMC = "F-C"
+    FMD = "F-D"
+    FME = "F-E"
+    FMF = "F-F"
+
+    MFA = "-FA"
+    MFB = "-FB"
+    MFC = "-FC"
+    MFD = "-FD"
+    MFE = "-FE"
+    MFF = "-FF"
