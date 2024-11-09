@@ -2,8 +2,8 @@ import requests
 
 from typing import Optional, Union, Any
 
-from src.is_api.utils.creadentials_manager import CredentialsManager
-from src.is_api.utils.headers import Headers
+from is_api.utils.creadentials_manager import CredentialsManager
+from is_api.utils.headers import Headers
 
 class Requestor:
 

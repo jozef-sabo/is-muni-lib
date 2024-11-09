@@ -1,4 +1,4 @@
-from src.is_api.utils.credentials import Credentials
+from is_api.utils.credentials import Credentials
 
 
 class CredentialsManager:

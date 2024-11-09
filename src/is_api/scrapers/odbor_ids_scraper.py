@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 
-from src.is_api.attributes.odbor_ids_attributes import OdborIdsAttributes
-from src.is_api.scrapers.scraper import Scraper
-from src.is_api.utils.requestor import Requestor
+from is_api.attributes.odbor_ids_attributes import OdborIdsAttributes
+from is_api.scrapers.scraper import Scraper
+from is_api.utils.requestor import Requestor
 
 
 class OdborIdsScraper(Scraper):

@@ -1,9 +1,9 @@
 from typing import Optional
 from bs4 import BeautifulSoup
 
-from src.is_api.attributes.predmet_id_attributes import PredmetIdAttributes
-from src.is_api.scrapers.scraper import Scraper
-from src.is_api.utils.requestor import Requestor
+from is_api.attributes.predmet_id_attributes import PredmetIdAttributes
+from is_api.scrapers.scraper import Scraper
+from is_api.utils.requestor import Requestor
 
 
 class PredmetIdScraper(Scraper):

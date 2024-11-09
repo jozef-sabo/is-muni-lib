@@ -3,8 +3,8 @@ import requests
 
 from typing import Optional
 
-from src.is_api.attributes.attributes import Attributes
-from src.is_api.utils.requestor import Requestor
+from is_api.attributes.attributes import Attributes
+from is_api.utils.requestor import Requestor
 
 
 class Scraper(metaclass=abc.ABCMeta):

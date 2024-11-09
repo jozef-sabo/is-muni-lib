@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import Optional, List
 
-from src.is_api.attributes.attributes import Attributes
-from src.is_api.data.combined_mark import CombinedMark
-from src.is_api.data.mark import Mark
-from src.is_api.data.operator import Operator
+from is_api.attributes.attributes import Attributes
+from is_api.data.combined_mark import CombinedMark
+from is_api.data.mark import Mark
+from is_api.data.operator import Operator
 
 
 @dataclass

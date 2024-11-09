@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 
-from src.is_api.attributes.attributes import Attributes
-from src.is_api.data.faculty import Faculty
-from src.is_api.data.term import Term
+from is_api.attributes.attributes import Attributes
+from is_api.data.faculty import Faculty
+from is_api.data.term import Term
 
 
 @dataclass

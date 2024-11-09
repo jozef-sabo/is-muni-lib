@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.is_api.attributes.attributes import Attributes
+from is_api.attributes.attributes import Attributes
 
 @dataclass
 class OdborIdsAttributes(Attributes):
