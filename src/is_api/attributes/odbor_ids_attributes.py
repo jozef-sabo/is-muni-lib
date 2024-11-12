@@ -11,7 +11,7 @@ class OdborIdsAttributes(Attributes):
 
     def data(self):
         data = {
-            "zuv_predmet": self.predmet_id,
+            "predmet": self.predmet_id,
             "masedlestav_ukonc": 1,
             "masedlestav_neaktiv": 1,
             "masedleobory": 1
