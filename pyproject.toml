@@ -7,7 +7,7 @@ name = "is_api"
 authors = [{name = "Jozef Sabo"}]
 description = "This is a wrapper library for the Information System of Masaryk University. The library makes some workflows on IS faster and easier and helps the developer communicate with IS more reliable"
 readme = "README.md"
-version = "1.0.1"
+version = "1.0.2"
 requires-python = ">=3.9"
 dependencies = [
     "beautifulsoup4 ~=4.12.3",
