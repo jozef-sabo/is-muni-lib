@@ -7,7 +7,9 @@ class OdborIdsAttributes(Attributes):
     predmet_id : int
 
     def params(self):
-        return None
+        return {
+            "predmet": self.predmet_id
+        }
 
     def data(self):
         data = {

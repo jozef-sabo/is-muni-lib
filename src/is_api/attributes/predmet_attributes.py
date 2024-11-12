@@ -23,11 +23,13 @@ class PredmetAttributes(Attributes):
 
 
     def params(self):
-        return None
+        return {
+            "predmet": self.predmet_id
+        }
 
     def data(self):
         data = {
-            "zuv_predmet": self.predmet_id,
+            "predmet": self.predmet_id,
             "operator": self.operator.value,
             "zmena_vybrdalomst": "Upřesnění omezení"
         }
